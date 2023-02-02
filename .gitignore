@@ -8,13 +8,32 @@
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+
+#kotlin
+lib/kotlin-reflect-sources.jar
+lib/kotlin-reflect.jar
+lib/kotlin-stdlib-jdk7-sources.jar
+lib/kotlin-stdlib-jdk7.jar
+lib/kotlin-stdlib-jdk8-sources.jar
+lib/kotlin-stdlib-jdk8.jar
+lib/kotlin-stdlib-sources.jar
+lib/kotlin-stdlib.jar
+lib/kotlin-test-sources.jar
+lib/kotlin-test.jar
+
+#generated
+*.g.dart
+*.freezed.dart
+*.backfit.dart
+*.cmake
+inject.config.dart
+pubspec.lock
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -32,6 +51,9 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Web related
+lib/generated_plugin_registrant.dart
+
 # Symbolication related
 app.*.symbols
 
@@ -42,3 +64,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/pubspec.lock
+/build/app/
+*.cmake
+windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus_windows
+ios/Podfile.lock
