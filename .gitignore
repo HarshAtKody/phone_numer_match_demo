@@ -66,6 +66,5 @@ app.*.map.json
 /android/app/release
 /pubspec.lock
 /build/app/
-*.cmake
 windows/flutter/ephemeral/.plugin_symlinks/connectivity_plus_windows
 ios/Podfile.lock
